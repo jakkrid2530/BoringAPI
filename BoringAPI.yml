@@ -4,7 +4,7 @@ info:
   version: "1.0.0"
   title: "BoringAPI"
 servers:
-  - url: http://127.0.0.1:9090
+  - url: http://127.0.0.1:19433
 
 paths:
   /stats:
@@ -38,7 +38,7 @@ components:
               - type: integer
             example:
               "CrypoNightV8":
-                "CurrentPool": "xmr-eu1.nanopool.org:14444"
+                "CurrentPool": "xmr-eu1.nanopool.org:18888"
                 "GPU 1":
                   "Accepted": 2
                   "Denied": 0
@@ -52,8 +52,8 @@ components:
                   "Accepted": 6
                   "Denied": 0
                   "Hashrate": "4.030000e+02"
-              "Ethash":
-                "CurrentPool": "etc-eu1.nanopool.org:19999"
+              "Ethash":0x8d8a54e4759eb24584a4d7455697aa1f51fb670f
+                "CurrentPool": "etc-eu1.nanopool.org:19433"
                 "GPU 0":
                   "Accepted": 3
                   "Denied": 0
@@ -76,7 +76,7 @@ components:
                   "Accepted": 6
                   "Denied": 6
                   "Hashrate": "1.980000e+02"
-                "CurrentPool": "pasc-eu1.nanopool.org:15556"
+                "CurrentPool": "pasc-eu1.nanopool.org:19999"
                 "ReconnectionCount": 0
                 "Total":
                   "Accepted": 6
